@@ -5,7 +5,7 @@ app = Ursina()
 
 ground = Entity(model="plane", texture='grass', scale=(2000,1,2000), collider="mesh")
 
-playerModel = Entity(model="dodge.obj")
+playerModel = Entity(model="sphere")
 
 player = FirstPersonController( model = playerModel, scale=.5, collider='box')
 
