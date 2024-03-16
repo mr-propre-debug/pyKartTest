@@ -3,7 +3,7 @@ from ursina.prefabs.first_person_controller import FirstPersonController
 
 app = Ursina()
 
-ground = Entity(model="plane", texture='grass', scale=(2000,1,2000), collider="mesh")
+ground = Entity(model="./assets/7_livingroom.obj", collider="mesh")
 
 playerModel = Entity(model="sphere")
 
