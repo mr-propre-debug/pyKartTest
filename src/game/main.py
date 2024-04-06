@@ -13,6 +13,4 @@ player.speed = 7
 
 camera.z = -7
 
-print("test")
-
 app.run()
