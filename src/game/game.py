@@ -4,7 +4,7 @@ from ursina.prefabs.first_person_controller import FirstPersonController
 if __name__ == '__main__':
     app = Ursina()
 
-ground = Entity(model="map.obj", scale=1, collider="mesh")
+ground = Entity(model="circuit.obj", scale=5, collider="mesh")
 
 playerModel = Entity(model="sphere")
 
