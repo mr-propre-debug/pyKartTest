@@ -32,7 +32,7 @@ def start_game():
 main_menu.buttons = [
     MenuButton('start', on_click=start_game),
     MenuButton('options', on_click=Func(setattr, state_handler, 'state', 'options_menu')),
-    MenuButton('quit', on_click=Sequence(Wait(.01), Func(sys.exit))),
+    MenuButton('quit', on_click=Func(sys.exit)),
 ]
 for i, e in enumerate(main_menu.buttons):
     e.parent = main_menu

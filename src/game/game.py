@@ -14,6 +14,9 @@ player.speed = 7
 
 camera.z = -7
 
+def input(key):
+    if key == 'escape':
+        sys.exit()
 
 if __name__ == '__main__':
     app.run()
