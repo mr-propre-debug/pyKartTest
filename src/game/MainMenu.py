@@ -88,6 +88,6 @@ for menu in (main_menu, load_menu, options_menu):
     menu.on_enable = animate_in_menu
 
 
-background = Entity(parent=menu_parent, model='quad', texture='shore', scale=(camera.aspect_ratio,1), color=color.white, z=1, world_y=0)
+background = Entity(parent=menu_parent, model='quad', texture='/assets/bg.jpeg', scale=(camera.aspect_ratio,1), color=color.white, z=1, world_y=0)
 
 app.run()
